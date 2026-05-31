@@ -24,7 +24,7 @@ function calculateImpacts(state) {
 }
 
 function impactNarratives(state) {
-  const { category, magnitude, select, targets } = state;
+  //const { category, magnitude, select, targets } = state;
   const targetText = targets.join(', ');
   const selected = select.toLowerCase();
   if (category==='TARIFFS') return [
